@@ -1,0 +1,126 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main box */
+.to-do-box .box {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.15);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff4d4d;
+}
+
+/* Input section */
+.taking-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Add button */
+.add-btn {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-btn:hover {
+    background-color: #e60000;
+}
+
+/* Output container */
+.showing-output {
+    width: 100%;
+}
+
+/* UL styling */
+.ul-list-class {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Each todo item */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.todo-item:hover {
+    background-color: #330000;
+}
+
+/* Text inside li */
+.todo-item span {
+    flex: 1;
+}
+
+/* Remove button */
+.remove-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.remove-btn:hover {
+    background-color: #e60000;
+}
